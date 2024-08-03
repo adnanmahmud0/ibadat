@@ -1,0 +1,113 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        >
+        <ImageView
+            android:onClick="back"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Tasbih"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/border_with_radius"
+        >
+
+        <!-- Left Button -->
+        <ImageView
+            android:id="@+id/btn_left"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            android:text="Left" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <!-- Center Text -->
+            <TextView
+                android:layout_marginTop="40dp"
+                android:id="@+id/tv_slider_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="لا إله إلا الله"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/tv_slider_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="La ilaha illallah"
+                android:textSize="25dp" />
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:id="@+id/tv_top_touch_counter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Read 0 time"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- Right Button -->
+        <ImageView
+            android:id="@+id/btn_right"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_arrow_forward_ios_24"
+            android:text="Left" />
+
+    </LinearLayout>
+
+    <!-- Separate section to show touch counter -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/main_layout">
+
+        <TextView
+            android:id="@+id/tv_touch_counter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/baseline_panorama_fish_eye_24"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="0"
+            android:textStyle="bold"
+            android:textSize="60dp"
+            />
+    </LinearLayout>
+</LinearLayout>

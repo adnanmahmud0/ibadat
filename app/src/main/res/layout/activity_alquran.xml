@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".alquran"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        >
+
+        <ImageView
+            android:onClick="back"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Al Quran"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_with_radius"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:padding="20dp"
+                    android:orientation="horizontal"
+                    android:onClick="audio0"
+                    >
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/baseline_circle_24"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="Al-Faatiha"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="سورة الفاتحة"
+                        android:gravity="right"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_with_radius"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:padding="20dp"
+                    android:orientation="horizontal"
+                    android:onClick="audio1">
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="2"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/baseline_circle_24"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="Al-Baqara"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="سورة البقرة"
+                        android:gravity="right"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_with_radius"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:padding="20dp"
+                    android:orientation="horizontal"
+                    android:onClick="audio2">
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="3"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/baseline_circle_24"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="Al-Imraan"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="سورة آل عمران"
+                        android:gravity="right"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_with_radius"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:padding="20dp"
+                    android:orientation="horizontal"
+                    android:onClick="audio3">
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="4"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/baseline_circle_24"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="Al-Nisaa"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="سورة النساء"
+                        android:gravity="right"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_with_radius"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:padding="20dp"
+                    android:orientation="horizontal"
+                    android:onClick="audio4">
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="5"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/baseline_circle_24"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="Al-Maaida"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="سورة المائدة"
+                        android:gravity="right"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_with_radius"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:padding="20dp"
+                    android:orientation="horizontal"
+                    android:onClick="audio5">
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="6"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/baseline_circle_24"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="Al-An'aam"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="سورة الأنعام"
+                        android:gravity="right"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_with_radius"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:padding="20dp"
+                    android:orientation="horizontal"
+                    android:onClick="audio6">
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="7"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/baseline_circle_24"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="Al-A'raf"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="سورة الأعراف"
+                        android:gravity="right"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_with_radius"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:padding="20dp"
+                    android:orientation="horizontal"
+                    android:onClick="audio7">
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="8"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/baseline_circle_24"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="Al-Anfaal"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="سورة الأنفال"
+                        android:gravity="right"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_with_radius"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:padding="20dp"
+                    android:orientation="horizontal"
+                    android:onClick="audio8">
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="9"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/baseline_circle_24"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="Al-Tawba"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="سورة التوبة"
+                        android:gravity="right"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:background="@drawable/border_with_radius"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="3"
+                    android:padding="20dp"
+                    android:orientation="horizontal"
+                    android:onClick="audio9">
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:text="10"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:background="@drawable/baseline_circle_24"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="Yunus"
+                        android:textAlignment="center"
+                        />
+                    <TextView
+                        android:layout_width="0sp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25"
+
+                        android:text="سورة يونس"
+                        android:gravity="right"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "557640397334",
+    "project_id": "ibadat2024-986ff",
+    "storage_bucket": "ibadat2024-986ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557640397334:android:3a76025fa1308f2993fb37",
+        "android_client_info": {
+          "package_name": "com.example.ibadat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNoHAbGuhruvToOJniJmXqnzoMGbc8V4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
