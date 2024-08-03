@@ -6,3 +6,4 @@ This is Islamic app where it have 5 main feature, and a donation system also in 
 -> Tasbih is a best feature to count tasbih by using touch.
 -> The Qibla is a compass which show the namaj qibla direction.
 -> And last is the donation system, where people can donate and can see the the donation history.
+-> There also app. You can download it. This is the download link: https://raw.githubusercontent.com/adnanmahmud0/ibadat/main/ibadat.apk
